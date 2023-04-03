@@ -1,8 +1,8 @@
 body{
     background-color: blanchedalmond;
     background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
+      rgba(46, 47, 66, 0.3),
+      rgba(46, 47, 66, 0.6)
     ),
     url(../pic/chakiris.jpg);
     background-position: center;
@@ -11,6 +11,7 @@ body{
     font-family: "roboto", sans-serif;
     display: flex;
     justify-content: center;
+    max-width: 1500px;
  
 }
 h1,
