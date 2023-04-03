@@ -4,7 +4,7 @@ body{
       rgba(46, 47, 66, 0.3),
       rgba(46, 47, 66, 0.6)
     ),
-    url(../pic/chakiris.jpg);
+    url(./pic/chakiris.jpg);
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
