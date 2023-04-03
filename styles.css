@@ -1,0 +1,93 @@
+body{
+    background-color: blanchedalmond;
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../pic/chakiris.jpg);
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    font-family: "roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+ 
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.list{
+      list-style-type: none;
+}
+img {
+  display: block;
+}
+
+.pic{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+.sect{
+    width: 1000px;
+    border-style: solid;
+  border-width: 4px;
+  border-color: #010208;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cont{
+    margin: 0 auto;
+  padding: 0 15px;
+  width: 1158px;
+  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-weight: 600;
+  font-size: 21px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  
+  text-decoration: none;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center; 
+}
+.title{
+     font-weight: 800;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center; 
+}
+.subtitle{
+       font-weight: 800;
+  font-size: 30px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center; 
+}
